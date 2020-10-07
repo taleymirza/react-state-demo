@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [option, setOption] = React.useState("meat");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>Hello</h3>
+      <select value={option} onChange={(e) => setOption(e.target.value)}>
+        <option value="select">Select</option>
+        <option value="fruit">Fruit</option>
+        <option value="veg">Vegetable</option>
+        <option value="meat">Meat</option>
+      </select>
     </div>
   );
 }
