@@ -1,3 +1,13 @@
+# Select Image
+
+This project is a class demo of Tech Karo for explaining the state, it's use and why we use state instead of local variable to store internal data of a component that needs to be updated
+
+## Project Structure 
+
+![Image](https://github.com/taleymirza/select-image/blob/master/Untitled%20Diagram.png)
+
+# Project Tooling
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
