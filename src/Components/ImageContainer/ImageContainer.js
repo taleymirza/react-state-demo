@@ -6,8 +6,7 @@ import MeatImage from '../../static/Images/meat.png';
 import './ImageContainer.css';
 
 
-const ImageContainer = ({ imageName }) => {
-
+const ImageContainer = ({ imageName, setOption }) => {
     const getImage = (name) => {
         switch (name) {
             case "fruit":
@@ -24,6 +23,7 @@ const ImageContainer = ({ imageName }) => {
     return (
         <div className="image-container">
             <img src={getImage(imageName)} alt={imageName} />
+            <button onClick={() => setOption("select")}>Clear</button>
         </div>
     )
 
