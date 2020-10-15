@@ -4,6 +4,11 @@ This project is a class demo of Tech Karo for explaining the state, it's use and
 
 ## Project Structure 
 
+### After Refactoring
+![Image](https://github.com/taleymirza/select-image/blob/master/src/static/Images/Untitled%20Diagram.png)
+
+### Class 1
+
 ![Image](https://github.com/taleymirza/select-image/blob/master/Untitled%20Diagram.png)
 
 # Project Tooling
